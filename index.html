@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aneylis Chavarría | Portafolio</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='26' fill='%230a0710'/><text x='50' y='69' font-size='58' font-family='Arial' font-weight='700' fill='%23ff6ec7' text-anchor='middle'>A</text></svg>">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Syne:wght@600;800&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="progress" id="progress"></div>
+<div class="mesh"><i></i><i></i><i></i></div>
+
+<header class="nav">
+  <a href="#home" class="logo" id="logo"></a>
+  <nav id="nav"></nav>
+  <div class="tools">
+    <button id="themeBtn" class="mono"></button>
+    <button id="langBtn" class="mono">EN</button>
+  </div>
+</header>
+
+<main>
+  <section id="home" class="hero">
+    <div class="hero-l">
+      <span class="badge mono" id="badge"></span>
+      <h1><span id="hello"></span> <em id="first"></em></h1>
+      <p class="fullname mono" id="fullname"></p>
+      <p class="lead" id="heroDesc"></p>
+      <div class="btns">
+        <a href="#projects" class="btn solid" id="btn1"></a>
+        <a href="#contact" class="btn ghost" id="btn2"></a>
+      </div>
+      <div class="stats" id="stats"></div>
+    </div>
+    <div class="hero-r">
+      <div class="art">
+        <div class="ring"></div>
+        <div class="frame" id="frame"></div>
+        <span class="chip c1" id="chip1"></span>
+        <span class="chip c2" id="chip2"></span>
+        <span class="chip c3" id="chip3"></span>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="head reveal"><span class="mono eb" id="eb_about"></span><h2 id="t_about"></h2></div>
+    <div class="about-grid" id="aboutGrid"></div>
+  </section>
+
+  <section id="skills">
+    <div class="head reveal"><span class="mono eb" id="eb_skills"></span><h2 id="t_skills"></h2></div>
+    <div class="bento" id="skillGrid"></div>
+  </section>
+
+  <section id="projects">
+    <div class="head reveal"><span class="mono eb" id="eb_projects"></span><h2 id="t_projects"></h2></div>
+    <div class="proj-grid" id="projList"></div>
+  </section>
+
+  <section id="contact">
+    <div class="contact reveal">
+      <span class="mono eb" id="eb_contact"></span>
+      <h2 id="t_contact"></h2>
+      <p class="lead" id="contactText"></p>
+      <a class="btn solid big" id="mailBtn"></a>
+      <div class="socials" id="socials"></div>
+    </div>
+  </section>
+</main>
+
+<footer class="mono" id="footer"></footer>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
